@@ -1,0 +1,381 @@
+/* grid 960px */
+.line{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.column{
+    padding: 0 10px;
+    float: left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+/* Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h1.logo{
+    font-weight: 700;
+    margin: 15px 0 10px 0;
+    letter-spacing: -2px;
+    color: #ffffff;
+    font-size: 48px;
+}
+h2, h3, h4, h5, h6{
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+ul li{
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+.sem-padding{
+    padding: 0 !important;
+}
+.sem-margin{
+    margin: 0 !important;
+}
+.sem-margintop{
+    margin-top: 0 !important;
+}
+.sem-marcador{
+   list-style: none; 
+}
+.header{
+    background: #2d698fef;
+}
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 40px;
+    width: 64%;
+}
+.margin-right{
+    margin-right: 140px;
+}
+div.item{
+    position: absolute;
+}
+.item.x{
+    top: auto;
+    left: 48%;
+}
+.item.y{
+    top: auto;
+    left: 59%;
+}
+.item.z{
+    top: auto;
+    left: 70%;
+}
+div.item span{
+    padding: 5px 10px;
+}
+div.item span:hover:not(.artigos){
+    background: #2697dd;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.menu.active span.artigos{
+    background: #2697dd;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.menu i{
+    color: #ffffff;
+    position: absolute;
+    left: 90%;
+    top: -45%;
+    border-radius: 3px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+.menu.active i{
+    background: #2697dd;
+    color: #ffffff;
+}
+ul.lista{
+    background: #2490d3;
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 230px;
+    left: 0; 
+    top: 60%;
+    display: none;
+    padding-left: 0;
+    z-index: 1;
+}
+ul.lista li:first-child{
+    margin-top: 5px;
+}
+ul.lista li{
+    margin-right: 0px;
+    height: 25px;
+    line-height: 25px;
+}
+ul.lista li a{
+    color: #ffffff;
+    opacity: 0.7;
+}
+ul.lista li a:hover{
+    opacity: 1;
+}
+.menu.active ul.lista{
+    display: flex;
+}  
+.subheader{
+    text-align: center;
+    background: #2388c7e7;
+    padding: 13px 0;
+}
+#subheader{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width: 100%;
+}
+div.coreinfo{
+    padding-top: 10px;
+    position: relative;
+}
+div.coreinfo::after{
+    content: "";
+    background: url(./Img/industria-2.jpg);
+    background-size: cover;
+    opacity: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+div.article-contentw{
+    position: relative;
+}
+div.article-contentw::after{
+    content: "";
+    background: url(./Img/industria-5.jpg);
+    background-size: cover;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;   
+}
+div.article-contentx{
+    position: relative;
+}
+div.article-contentx::after{
+    content: "";
+    background: url(./Img/industria-4.jpg);
+    background-size: cover;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;   
+}
+div.article-contenty{
+    position: relative;
+}
+div.article-contenty::after{
+    content: "";
+    background: url(./Img/industria-7.jpg);
+    background-size: cover;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;   
+}
+div.article-contentz{
+    position: relative;
+}
+div.article-contentz::after{
+    content: "";
+    background: url(./Img/industria-8.jpg);
+    background-size: cover;
+    opacity: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;   
+}
+div.sobrenós{
+    position: relative;
+}
+div.sobrenós::after{
+    content: "";
+    background: url(./Img/industria-2.jpg);
+    background-size: cover;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;    
+}
+div.contactinfo{
+    margin: 0 0 50px 0;
+}
+div.contactinfo p{
+    font-weight: 300;
+    margin-bottom: 21px;
+}
+ul.news li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#firstnews{
+    margin-top: 30px;
+}
+ul.news h4{
+    margin: -2px 0 5px 0;
+    font-weight: 400;
+}
+ul.news p{
+    margin: 10px 0;
+    font-weight: 300;
+}
+section.justify{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+.justify .center{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.justify{
+    text-align: justify;
+}
+.justify h3{
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+.section{
+    text-indent: 48px;
+    line-height: 1.2;
+}
+.non-section{
+    text-indent: 0;
+}
+.section-special{
+    line-height: 1.2;
+}
+.contactinfo h3{
+    margin-top: 17px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 24.15px;
+    font-weight: 400;
+}
+#firstspecialfontsize{
+    font-weight: 400;
+}
+#secondspecialfontsize{
+    font-size: 20px;
+    font-weight: 400;
+}
+.nonjustify{
+    text-align: left;
+}
+.nonjustify li{
+    margin-bottom: 7px;
+}
+input.botao{
+    background: #000000ce;
+    padding: 4px 3px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0;
+    font-weight: 300;
+}
+input.botao:hover{
+    background: #4e4a4a;
+}
+.comments input, .comments textarea{
+    display: block;
+    margin: 20px 0;
+}
+.comments textarea{
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 300px;
+    overflow: hidden;
+    height: 40px;
+}
+.postname{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.footer{
+    background: #2d698fef;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 400;
+}
